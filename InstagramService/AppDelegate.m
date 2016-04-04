@@ -7,13 +7,32 @@
 //
 
 #import "AppDelegate.h"
-
+#import <MBProgressHUD.h>
 @interface AppDelegate ()
+
+@property (nonatomic, strong) MBProgressHUD *hud;
 
 @end
 
 @implementation AppDelegate
+@synthesize hud;
++ (AppDelegate *)sharedInstance {
+    return (AppDelegate*) [UIApplication sharedApplication].delegate;
+}
+- (void)showLoading {
+    if (!hud) {
+        self.hud = [[MBProgressHUD alloc] initWithView:self.window];
+        [self.window addSubview:hud];
+        self.hud.dimBackground = YES;
+    }
+    [hud show:YES];
+}
 
+- (void)hideLoading {
+    if (self.hud) {
+        [self.hud hide:YES];
+    }
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

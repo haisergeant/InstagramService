@@ -12,6 +12,9 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
++ (AppDelegate*) sharedInstance;
+- (void) showLoading;
+- (void) hideLoading;
 
 @end
 

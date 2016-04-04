@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "InstagramAuthenticateViewController.h"
+@interface ViewController : UIViewController<InstagramAuthenticateViewControllerDelegate>
 
 
 @end
-
