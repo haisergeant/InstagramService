@@ -16,8 +16,8 @@
 		A692FB041CB20A5A00404C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A692FB021CB20A5A00404C85 /* LaunchScreen.storyboard */; };
 		A692FB0E1CB21F7700404C85 /* InstagramService.m in Sources */ = {isa = PBXBuildFile; fileRef = A692FB0D1CB21F7700404C85 /* InstagramService.m */; };
 		A692FB111CB23EA600404C85 /* QueryService.m in Sources */ = {isa = PBXBuildFile; fileRef = A692FB101CB23EA600404C85 /* QueryService.m */; };
-		A692FB151CB242B200404C85 /* PathUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A692FB141CB242B200404C85 /* PathUtils.m */; };
 		A692FB1C1CB25CC700404C85 /* InstagramAuthenticateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A692FB1A1CB25CC700404C85 /* InstagramAuthenticateViewController.m */; };
+		A6E9F98E1CB40C8900B15B6A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A6E9F98D1CB40C8900B15B6A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,10 +38,9 @@
 		A692FB0D1CB21F7700404C85 /* InstagramService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramService.m; sourceTree = "<group>"; };
 		A692FB0F1CB23EA600404C85 /* QueryService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryService.h; sourceTree = "<group>"; };
 		A692FB101CB23EA600404C85 /* QueryService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryService.m; sourceTree = "<group>"; };
-		A692FB131CB242B200404C85 /* PathUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathUtils.h; sourceTree = "<group>"; };
-		A692FB141CB242B200404C85 /* PathUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathUtils.m; sourceTree = "<group>"; };
 		A692FB1A1CB25CC700404C85 /* InstagramAuthenticateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramAuthenticateViewController.m; sourceTree = "<group>"; };
 		A692FB1B1CB25CC700404C85 /* InstagramAuthenticateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramAuthenticateViewController.h; sourceTree = "<group>"; };
+		A6E9F98D1CB40C8900B15B6A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +82,7 @@
 				A692FAFB1CB20A5A00404C85 /* ViewController.m */,
 				A692FB1B1CB25CC700404C85 /* InstagramAuthenticateViewController.h */,
 				A692FB1A1CB25CC700404C85 /* InstagramAuthenticateViewController.m */,
-				A692FB121CB242B200404C85 /* Utils */,
+				A6E9F98D1CB40C8900B15B6A /* README.md */,
 				A692FB0B1CB21F7700404C85 /* Service */,
 				A692FAFD1CB20A5A00404C85 /* Main.storyboard */,
 				A692FB001CB20A5A00404C85 /* Assets.xcassets */,
@@ -111,15 +110,6 @@
 				A692FB101CB23EA600404C85 /* QueryService.m */,
 			);
 			path = Service;
-			sourceTree = "<group>";
-		};
-		A692FB121CB242B200404C85 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				A692FB131CB242B200404C85 /* PathUtils.h */,
-				A692FB141CB242B200404C85 /* PathUtils.m */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		CF2C72586482FD7FE5FD4715 /* Frameworks */ = {
@@ -260,12 +250,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E9F98E1CB40C8900B15B6A /* README.md in Sources */,
 				A692FB0E1CB21F7700404C85 /* InstagramService.m in Sources */,
 				A692FB111CB23EA600404C85 /* QueryService.m in Sources */,
 				A692FAFC1CB20A5A00404C85 /* ViewController.m in Sources */,
 				A692FB1C1CB25CC700404C85 /* InstagramAuthenticateViewController.m in Sources */,
 				A692FAF91CB20A5A00404C85 /* AppDelegate.m in Sources */,
-				A692FB151CB242B200404C85 /* PathUtils.m in Sources */,
 				A692FAF61CB20A5A00404C85 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
